@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>For My Dhole ❤️</title>
+
+<style>
+body{
+margin:0;
+font-family:sans-serif;
+background:linear-gradient(#ff9a9e,#fad0c4);
+text-align:center;
+overflow:hidden;
+padding:40px 15px;
+}
+
+h1{color:#b00020;}
+p{font-size:18px;line-height:1.6;}
+
+button{
+padding:15px 25px;
+border:none;
+border-radius:30px;
+font-size:18px;
+margin:10px;
+}
+
+#yes{background:red;color:white;}
+#no{background:#555;color:white;}
+
+.heart{
+position:absolute;
+color:red;
+font-size:20px;
+animation:float 5s linear infinite;
+}
+
+@keyframes float{
+0%{bottom:0;opacity:1;}
+100%{bottom:100%;opacity:0;}
+}
+</style>
+</head>
+
+<body>
+
+<h1>Happy Propose Day 💍</h1>
+
+<p>
+Dear Avantika (my Dhole) ❤️<br><br>
+
+I know I hurt you because I didn’t take much effort for Valentine’s days.  
+I’m really sorry for that 🥺  
+It was never because I don’t care… it’s just that I’m not very good at expressing these things.
+
+But please believe me — I truly love you with all my heart.  
+Even from far away, you are always in my thoughts, my prayers, and my future.
+
+Thank you for being patient with me, for loving me, and for staying with me.  
+I promise to try harder and love you better every day Really sorry to not fulfilled your expectation .
+But I loveeeeeeeeeeeeee Youuuuuuuuuuuuu plz maaf kr mala please baby strawberry cutie princess Dhole bs na aata mhit ahe tula mala nhi karmat.💕  
+
+Will you be mine forever? ❤️
+</p>
+
+<button id="yes" onclick="yes()">YES 💖</button>
+<button id="no" onclick="no()">NO 😢</button>
+
+<audio autoplay loop>
+<source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3">
+</audio>
+
+<script>
+function yes(){
+window.location.href="https://wa.me/?text=Yes%20my%20love%20I%20forgive%20you%20and%20I%20accept%20your%20proposal%20❤️";
+}
+
+function no(){
+alert("Please forgive me Dhole 🥺❤️ I truly love you.");
+}
+
+setInterval(()=>{
+let h=document.createElement("div");
+h.innerHTML="❤️";
+h.className="heart";
+h.style.left=Math.random()*100+"%";
+document.body.appendChild(h);
+setTimeout(()=>h.remove(),5000);
+},300);
+</script>
+
+</body>
+</html>
